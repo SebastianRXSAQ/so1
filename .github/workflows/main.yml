@@ -26,7 +26,7 @@ jobs:
           set -e -o pipefail
           ./cruelbuild config                    \
                        model=${{ matrix.model }} \
-                       name="SNRL CruelKernel v1.0"         \
+                       name="SNRLCruelKernel v1.0"         \
                        toolchain=$TOOLCHAIN      \
                        +magisk                   \
                        +nohardening              \
